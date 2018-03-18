@@ -1,5 +1,5 @@
 # Delta Games
-[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/EYjS7eA)
+[![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/F3jXyds)
 
 This repository contains the source code for the public release of the Delta SS Tool. This tool detects cheaters in minecraft using a variety of different techniques. This project is **not** readily compileable and will take a lot of work to be able to fork your own version. It only serves to be an example for a successful SS Tool.
 
