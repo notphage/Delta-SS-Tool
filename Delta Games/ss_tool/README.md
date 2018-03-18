@@ -11,5 +11,3 @@
 ## Installation
 
 > There is no support to forks or "unofficial" builds of this tool. If you are not a developer, please only use the official releases. 
-
-> Instructions will be added later on how to add the bot to your discord server and setup the channel, for now join [![Delta Games](https://img.shields.io/badge/Chat%20%2F%20Support-discord-7289DA.svg?style=flat-square)](https://discord.gg/cNwjfzw)
