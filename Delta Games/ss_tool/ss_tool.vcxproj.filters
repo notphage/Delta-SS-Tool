@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SRC">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SRC\Console">
+      <UniqueIdentifier>{738b0579-7aa5-49e0-b4ae-005c4c38345a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Checks">
+      <UniqueIdentifier>{46172c71-97a5-40b1-ab35-fd491308bfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Extensions">
+      <UniqueIdentifier>{c5535d75-f475-4931-890f-6f31e1f8d83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Tools">
+      <UniqueIdentifier>{aad41892-29e7-44ba-8b70-7261bb426234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Libs">
+      <UniqueIdentifier>{170ef8e9-5023-43a3-9b8e-70f6d89f54b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Libs\Miniz">
+      <UniqueIdentifier>{7ce66d68-2e04-4025-bdc3-594f4dd27565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Libs\LodePNG">
+      <UniqueIdentifier>{49943265-09c4-49a5-b163-97d22e48e1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{84d6e87e-98a4-4fb2-9bd0-5a304fec0daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC\Crypto">
+      <UniqueIdentifier>{fb0d7b66-106c-4c22-b21b-3b5ec4f6063c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\main.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\checks.cpp">
+      <Filter>SRC\Checks</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\lodepng.cpp">
+      <Filter>SRC\Libs\LodePNG</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\miniz.c">
+      <Filter>SRC\Libs\Miniz</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\tools.cpp">
+      <Filter>SRC\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\auth.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SRC\console.hpp">
+      <Filter>SRC\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\checks.hpp">
+      <Filter>SRC\Checks</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\extensions.hpp">
+      <Filter>SRC\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\lodepng.hpp">
+      <Filter>SRC\Libs\LodePNG</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\miniz.h">
+      <Filter>SRC\Libs\Miniz</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\tools.hpp">
+      <Filter>SRC\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\crypto.hpp">
+      <Filter>SRC\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\check_list.hpp">
+      <Filter>SRC\Checks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
